@@ -68,12 +68,16 @@
     <Reference Include="Newtonsoft.Json">
       <HintPath>..\lib\Newtonsoft.Json.dll</HintPath>
     </Reference>
+    <Reference Include="nunit.framework">
+      <HintPath>..\lib\nunit.framework.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MainModule.cs" />
     <Compile Include="App.cs" />
     <Compile Include="PokerPlayer.cs" />
     <Compile Include="Game.cs" />
+    <Compile Include="TestPokerPlayer.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config">
